@@ -1,0 +1,33 @@
+@media screen and (min-width: 700px) {
+
+    #menu-button {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 40px;
+    }
+
+    #course-title {
+        padding: 20px 0;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        background-color: transparent;
+    }
+
+    nav a {
+        padding: 20px 15px;
+    }
+
+    .temple-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+
+}
