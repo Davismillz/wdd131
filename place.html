@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Abuja, Nigeria | WDD 131</title>
+
+    <meta name="description"
+        content="A place page about Abuja, Nigeria, created for WDD 131 Dynamic Web Fundamentals by Onyenali Ikechukwu Davis.">
+    <meta name="author" content="Davis Ikechukwu Onyenali">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/place.css">
+
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Abuja, Nigeria</h1>
+    </header>
+
+    <main>
+
+       <section class="hero">
+
+    <picture>
+        <source media="(max-width: 700px)" srcset="images/abuja1.webp">
+        <source media="(min-width: 701px)" srcset="images/abuja-city.webp">
+
+        <img src="images/abuja-city.webp"
+            alt="View of Abuja, Nigeria">
+    </picture>
+    </section>
+
+    <div class="information">
+
+        <section class="card data-card">
+            <h2>Data</h2>
+
+            <div class="data-list">
+                <p><strong>Area:</strong> 7,315 km²</p>
+                <p><strong>Population:</strong> Over 1 million</p>
+                <p><strong>Capital:</strong> Abuja</p>
+                <p><strong>Country:</strong> Nigeria</p>
+                <p><strong>Continent:</strong> Africa</p>
+                <p><strong>Currency:</strong> Nigerian Naira</p>
+                <p><strong>Language:</strong> English</p>
+            </div>
+        </section>
+
+        <section class="card weather-card">
+
+            <h2>Weather</h2>
+
+            <img class="weather-icon"
+                src="images/weather.svg"
+                alt="Partly cloudy weather">
+
+            <div class="weather-info">
+                <p><strong>Temperature:</strong> <span id="temperature">28</span> °C</p>
+                <p><strong>Conditions:</strong> Partly Cloudy</p>
+                <p><strong>Wind:</strong> <span id="wind-speed">10</span> km/h</p>
+                <p><strong>Wind Chill:</strong> <span id="windchill">N/A</span></p>
+            </div>
+
+        </section>
+
+    </div>
+
+    </section>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>
+            © <span id="currentyear"></span>
+            Davis Ikechukwu Onyenali| Abuja, Nigeria
+        </p>
+
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html>
