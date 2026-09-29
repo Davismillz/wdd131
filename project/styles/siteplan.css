@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Roboto:wght@400;500&display=swap');
+
+:root {
+    --navy: #172B4D;
+    --blue: #2563EB;
+    --light-blue: #E8F0FE;
+    --white: #FFFFFF;
+    --dark-gray: #263238;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: var(--dark-gray);
+    background-color: var(--white);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--navy);
+    color: var(--white);
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: var(--light-blue);
+}
+
+h2,
+h3 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--navy);
+}
+
+h2 {
+    border-bottom: 3px solid var(--blue);
+    padding-bottom: 0.5rem;
+}
+
+strong {
+    color: var(--blue);
+}
+
+.mobile-wireframe,
+.desktop-wireframe {
+    border: 3px solid var(--navy);
+    background-color: var(--white);
+    padding: 1rem;
+    margin: 1rem 0 2rem;
+}
+
+.wf-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--navy);
+    color: var(--white);
+    font-family: 'Poppins', sans-serif;
+}
+
+.wf-hero {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 1rem;
+    background-color: var(--light-blue);
+}
+
+.wf-hero strong {
+    display: block;
+    color: var(--navy);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+}
+
+.wf-hero button {
+    border: none;
+    padding: 0.7rem 1.2rem;
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wf-section,
+.wf-wide-section {
+    padding: 1rem;
+    margin-top: 1rem;
+    border: 2px solid var(--blue);
+    background-color: var(--white);
+}
+
+.wf-section strong,
+.wf-wide-section strong {
+    color: var(--navy);
+    font-family: 'Poppins', sans-serif;
+}
+
+.wf-footer {
+    margin-top: 1rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--navy);
+    color: var(--white);
+}
+
+.wf-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+footer {
+    background-color: var(--navy);
+    color: var(--white);
+    text-align: center;
+    padding: 1rem;
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 1rem;
+    }
+
+    section {
+        padding: 1rem;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .wf-columns {
+        grid-template-columns: 1fr;
+    }
+}
