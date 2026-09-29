@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TechStart | Site Plan</title>
+
+    <meta
+        name="description"
+        content="Site plan for TechStart, a beginner's guide to software testing and quality assurance."
+    >
+
+    <meta name="author" content="Davis Ikechukwu Onyenali">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Roboto:wght@400;500&display=swap');
+
+:root {
+    --navy: #172B4D;
+    --blue: #2563EB;
+    --light-blue: #E8F0FE;
+    --white: #FFFFFF;
+    --dark-gray: #263238;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: var(--dark-gray);
+    background-color: var(--white);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--navy);
+    color: var(--white);
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: var(--light-blue);
+}
+
+h2,
+h3 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--navy);
+}
+
+h2 {
+    border-bottom: 3px solid var(--blue);
+    padding-bottom: 0.5rem;
+}
+
+strong {
+    color: var(--blue);
+}
+
+.mobile-wireframe,
+.desktop-wireframe {
+    border: 3px solid var(--navy);
+    background-color: var(--white);
+    padding: 1rem;
+    margin: 1rem 0 2rem;
+}
+
+.wf-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--navy);
+    color: var(--white);
+    font-family: 'Poppins', sans-serif;
+}
+
+.wf-hero {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 1rem;
+    background-color: var(--light-blue);
+}
+
+.wf-hero strong {
+    display: block;
+    color: var(--navy);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+}
+
+.wf-hero button {
+    border: none;
+    padding: 0.7rem 1.2rem;
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wf-section,
+.wf-wide-section {
+    padding: 1rem;
+    margin-top: 1rem;
+    border: 2px solid var(--blue);
+    background-color: var(--white);
+}
+
+.wf-section strong,
+.wf-wide-section strong {
+    color: var(--navy);
+    font-family: 'Poppins', sans-serif;
+}
+
+.wf-footer {
+    margin-top: 1rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--navy);
+    color: var(--white);
+}
+
+.wf-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+footer {
+    background-color: var(--navy);
+    color: var(--white);
+    text-align: center;
+    padding: 1rem;
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 1rem;
+    }
+
+    section {
+        padding: 1rem;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .wf-columns {
+        grid-template-columns: 1fr;
+    }
+}
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🔧 TechStart</h1>
+        <p>A Beginner's Guide to Software Testing</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Site Name</h2>
+            <p>
+                <strong>TechStart</strong> is a beginner-friendly website
+                that introduces software testing and quality assurance.
+            </p>
+
+            <p>
+                <p>
+                The name "TechStart" represents a simple starting point
+                for people who want to learn about software testing.
+                The 🔧 symbol represents the tools and practical skills
+                used in software testing.
+</p>
+            </p>
+
+            <p><strong>Possible domain:</strong> techstartqa.com</p>
+        </section>
+
+        <section>
+            <h2>Site Purpose</h2>
+            <p>
+                TechStart is a beginner-friendly website that introduces
+                software testing and quality assurance. It provides simple
+                explanations of testing concepts, testing types, practical
+                tips, and an interactive QA toolkit to help beginners
+                understand how software testing works.
+            </p>
+        </section>
+
+        <section>
+            <h2>Scenarios</h2>
+
+            <h3>Scenario 1</h3>
+                <p>
+                    What is software testing and why is it important when developing software?
+                </p>
+
+                <h3>Scenario 2</h3>
+                <p>
+                    Which types of software testing should I learn first as a beginner?
+                </p>
+
+                <h3>Scenario 3</h3>
+                <p>
+                    How can I use a simple testing checklist to test a website?
+                </p>
+        </section>
+
+        <section>
+            <h2>Color Schema</h2>
+
+            <p>
+                The site will use a professional blue-based color scheme
+                suitable for a technology and software testing website.
+            </p>
+
+            <ul>
+                <li><strong>Dark Navy:</strong> #172B4D — headers and navigation</li>
+                <li><strong>Blue:</strong> #2563EB — buttons, links, and accents</li>
+                <li><strong>Light Blue:</strong> #E8F0FE — section backgrounds</li>
+                <li><strong>White:</strong> #FFFFFF — main background</li>
+                <li><strong>Dark Gray:</strong> #263238 — body text</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Typography</h2>
+
+            <h3>Poppins</h3>
+            <p>
+                Poppins will be used for headings, navigation, the site name,
+                and buttons.
+            </p>
+
+            <h3>Roboto</h3>
+            <p>
+                Roboto will be used for paragraphs and other body text.
+            </p>
+        </section>
+
+        <section>
+    <h2>Wireframes</h2>
+
+    <h3>Mobile View</h3>
+
+    <div class="mobile-wireframe">
+        <div class="wf-header">
+            <span>🔧 TechStart</span>
+            <span>☰</span>
+        </div>
+
+        <div class="wf-hero">
+            <strong>Learn Software Testing</strong>
+            <p>Simple guides for beginners.</p>
+            <button>Start Learning</button>
+        </div>
+
+        <div class="wf-section">
+            <strong>What is QA?</strong>
+            <p>Introduction to quality assurance and software testing.</p>
+        </div>
+
+        <div class="wf-section">
+            <strong>Testing Types</strong>
+            <p>Manual • Automation • Functional</p>
+        </div>
+
+        <div class="wf-section">
+            <strong>QA Toolkit</strong>
+            <p>Checklist and interactive tools.</p>
+        </div>
+
+        <div class="wf-footer">
+            Footer
+        </div>
+    </div>
+
+
+    <h3>Desktop View</h3>
+
+    <div class="desktop-wireframe">
+
+        <div class="wf-header">
+            <strong>🔧 TechStart</strong>
+
+            <nav>
+                Home &nbsp; | &nbsp;
+                Testing Guide &nbsp; | &nbsp;
+                QA Toolkit &nbsp; | &nbsp;
+                About
+            </nav>
+        </div>
+
+        <div class="wf-hero">
+            <strong>Learn Software Testing</strong>
+            <p>A beginner-friendly guide to software testing and QA.</p>
+            <button>Start Learning</button>
+        </div>
+
+        <div class="wf-columns">
+
+            <div class="wf-section">
+                <strong>What is QA?</strong>
+                <p>Learn the basics of quality assurance.</p>
+            </div>
+
+            <div class="wf-section">
+                <strong>Testing Types</strong>
+                <p>Explore manual, automation and functional testing.</p>
+            </div>
+
+            <div class="wf-section">
+                <strong>QA Toolkit</strong>
+                <p>Use checklists and interactive testing tools.</p>
+            </div>
+
+        </div>
+
+        <div class="wf-wide-section">
+            <strong>Why Software Testing Matters</strong>
+            <p>
+                Understand how testing helps improve software quality,
+                reliability and user experience.
+            </p>
+        </div>
+
+        <div class="wf-footer">
+            Footer
+        </div>
+
+    </div>
+</section>
+
+    </main>
+
+    <footer>
+        <p>TechStart Site Plan | WDD 131</p>
+    </footer>
+
+</body>
+</html>
