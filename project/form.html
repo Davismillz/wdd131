@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Product review form for WDD 131.">
+    <meta name="description" content="Submit a product review by selecting a product, rating its quality, choosing useful features, and sharing your experience.">
     <meta name="author" content="Davis Ikechukwu Onyenali">
 
     <title>Product Review</title>
@@ -32,37 +32,37 @@
                     <option value="" disabled selected>Select a Product ...</option>
                 </select>
             </div>
+    
+        <fieldset class="form-group">
+            <legend>Overall Rating</legend>
 
-            <fieldset class="form-group">
-                <legend>Overall Rating</legend>
+            <div class="rating">
+                <label for="rating1">
+                    <span>☆</span>
+                    <input type="radio" id="rating1" name="rating" value="1" required>
+                </label>
 
-                <div class="rating">
-                    <label for="rating1">
-                        <span>☆</span>
-                        <input type="radio" id="rating1" name="rating" value="1" required>
-                    </label>
+                <label for="rating2">
+                    <span>☆☆</span>
+                    <input type="radio" id="rating2" name="rating" value="2" required>
+                </label>
 
-                    <label for="rating2">
-                        <span>☆☆</span>
-                        <input type="radio" id="rating2" name="rating" value="2">
-                    </label>
+                <label for="rating3">
+                    <span>☆☆☆</span>
+                    <input type="radio" id="rating3" name="rating" value="3" required>
+                </label>
 
-                    <label for="rating3">
-                        <span>☆☆☆</span>
-                        <input type="radio" id="rating3" name="rating" value="3">
-                    </label>
+                <label for="rating4">
+                    <span>☆☆☆☆</span>
+                    <input type="radio" id="rating4" name="rating" value="4" required>
+                </label>
 
-                    <label for="rating4">
-                        <span>☆☆☆☆</span>
-                        <input type="radio" id="rating4" name="rating" value="4">
-                    </label>
-
-                    <label for="rating5">
-                        <span>☆☆☆☆☆</span>
-                        <input type="radio" id="rating5" name="rating" value="5">
-                    </label>
-                </div>
-            </fieldset>
+                <label for="rating5">
+                    <span>☆☆☆☆☆</span>
+                    <input type="radio" id="rating5" name="rating" value="5" required>
+                </label>
+            </div>
+        </fieldset>
 
             <div class="form-group">
                 <label for="installation-date">Date of Installation</label>
