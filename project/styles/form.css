@@ -1,0 +1,179 @@
+:root {
+    --primary-color: #3b0038;
+    --secondary-color: #d8d1d8;
+    --accent-color: #1f2999;
+    --text-color: #111111;
+    --white: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    color: var(--text-color);
+    background-color: var(--white);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--white);
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+form {
+    background-color: var(--secondary-color);
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+label,
+legend {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+legend {
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+legend span,
+label span {
+    font-weight: 400;
+    color: var(--accent-color);
+}
+
+select,
+input[type="date"],
+input[type="text"],
+textarea {
+    display: block;
+    width: 100%;
+    margin-top: 0.75rem;
+    padding: 1rem;
+    font: inherit;
+    font-size: 1.1rem;
+    border: 2px solid #ccc;
+    background-color: var(--white);
+}
+
+select:focus,
+input:focus,
+textarea:focus {
+    outline: 3px solid var(--accent-color);
+    outline-offset: 2px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.rating label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 400;
+}
+
+.rating label span {
+    color: var(--text-color);
+    font-size: 1.8rem;
+}
+
+.rating input[type="radio"] {
+    width: 2rem;
+    height: 2rem;
+}
+
+fieldset label:not(.rating label) {
+    display: block;
+    margin: 0.75rem 0;
+    font-weight: 400;
+}
+
+input[type="checkbox"] {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.75rem;
+    vertical-align: middle;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid #777;
+    border-radius: 4px;
+    background-color: var(--white);
+    color: var(--text-color);
+    font: inherit;
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background-color: var(--accent-color);
+    color: var(--white);
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--white);
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+@media screen and (min-width: 700px) {
+    header h1 {
+        font-size: 3rem;
+    }
+
+    form {
+        padding: 2.5rem;
+    }
+
+    .form-group {
+        margin-bottom: 2.5rem;
+    }
+}
